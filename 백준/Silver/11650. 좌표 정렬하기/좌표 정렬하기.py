@@ -7,7 +7,7 @@ for i in range(N):
     array.append([a, b])
 
 
-s_array = sorted(array)
+s_array = sorted(array, key = lambda x: (x[0], x[1]))
 
 
 for j in range(N):
